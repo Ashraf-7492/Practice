@@ -1,0 +1,35 @@
+<style> 
+h1{ font-size: 50pt;
+background-color: darkcyan;height: 100px;
+text-align: center; }
+.pic{ border: 5px solid black;
+display: inline-block;
+margin-top: 100px;
+margin-left:28%;
+padding: 2px;
+align-items: center;}
+.MainHead{ border: 3px solid black;
+background-color: darkcyan;
+margin: 1%;
+margin-top: 100px;
+width:30%;
+padding: 3px;
+text-align: center;
+display: inline-block;
+}
+.para1{ 
+border-radius: 10px;
+margin: 1%;
+width: 30%;
+text-align: center;
+padding: 3px;
+display: inline-block;
+}
+#IP1{display: block;
+margin: 0% 33.33%;} 
+footer{ text-align: center;
+margin: 15% 0%;}
+h3{text-align: center;
+margin: 10% 0%;}
+
+</style>
