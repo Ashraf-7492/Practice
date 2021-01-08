@@ -8,6 +8,9 @@
     h1{ font-size: 50pt;
     background-color: darkcyan;height: 100px;
     text-align: center;}
+    
+
+    }
     .pic{ border: 5px solid black;
     display: inline-block;
     margin-top: 100px;
@@ -23,6 +26,10 @@
     text-align: center;
     display: inline-block;
     }
+    .MainHead:hover{
+      font-size: 30px;
+      color: crimson;
+    }
     .para1{ 
     border-radius: 10px;
     margin: 1%;
@@ -35,8 +42,37 @@
     margin: 0% 33.33%;} 
     footer{ text-align: center;
     margin: 15% 0%;}
-    h3{text-align: center;
-    margin: 10% 0%;}
+    #sn{
+      text-align: center;
+      color: darkgoldenrod;
+    }
+    .A{
+      width: 180px;
+      position: relative;
+      left: 43%;
+      }
+      .focus:focus{
+        color: coral;
+        font-size: 30pt;}
+    
+    button{
+      margin-top: 10px;
+      position: relative;
+      left: 48%;
+
+    }
+    .CI{
+      text-align: center;}
+      .customer{
+     
+        position: relative;
+        top: 25px;}
+.subscribeno-noww{
+  background-color: darkcyan;
+  height: 300px;
+}
+
+    
     
     </style>
 </head>
@@ -47,7 +83,7 @@
     <img src="My Picture/My Picture1.jpg" alt="" width="300px" height="500px">
     <img src="My Picture/My Picture2.jpg" alt="" width="300px" height="500px">
   </section>
-   <section>
+   <section class="headline">
     <h2 class="MainHead"> MySelf</h2>
     <h2 class="MainHead">Educational Qualification</h2>
     <h2 class="MainHead"> Family Background</h2>
@@ -64,7 +100,19 @@
   My father name is Moniruzzaman khan chowdhury and my Mother name is Tahmina khanam chowdhury. I am second child of my parents and i have two sister.My elder sister is Swarna and  she is married and teacher by profession. My younger sister is student. 
 </p>
 </section>
-<h3>Subscribe Now <input type="email" name="" id=""> <button>submit</button></h3>
+<h2 id="sn"> SUBSCRIBE NOW</h2>
+<section class="subscribeno-noww"> <br>
+  <div class="customer">
+   <h3 class="CI">Email</h3><input class="A focus" type="email">
+    <h3 class="CI">Password</h3><input class="A focus" type="password" >
+    <br> <button>Submit</button>
+
+  </div>
+</section>
+<section class="video">
+  <video controls src="audio/Video1.mp4" width="500px" height="300px"></video>
+</section>
+
 </body> 
  <footer>
   Alrights reserves Ashrafuzzaman's Business.inc 2021/
